@@ -17,7 +17,7 @@ par(mfrow = c(2,2))
 
 # Top left 
 
-plot(FebData$DateTime, as.numeric(FebData$Global_active_power), xlab = " ", ylab = "Global Active Power (kilowatts)", type = "l")
+plot(FebData$DateTime, as.numeric(FebData$Global_active_power), xlab = " ", ylab = "Global Active Power", type = "l")
 
 # Top right
 
